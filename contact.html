@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>LukeWay Portfolio Contact</title>
+		<meta charset="utf-8">
+		<meta name="description" content="LukeWay Porfolio Website Contact">
+		<meta name="author" content="Showcase of all my Front-End works and projects">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body id="contact">
+		<header role="header" class="home-header">
+			<div class="container clearfix">
+				<div class="logo">
+					<h2><a href="index.html">LukeWay</a></h2>
+				</div>
+				<nav id="main-nav" class="site-navigation" role="navigation">
+					<button class="toggle-nav">
+						<span></span>
+						<span></span>
+						<span></span>
+						Menu
+					</button>
+					<ul>
+						<li class="nav-item"><a href="index.html">Works</a></li>
+						<li class="nav-item active"><a href="#">Contact</a></li>
+						<li class="nav-item"><a href="#">About</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main id="main-content" class="container clearfix contact">
+			<section class="col-sx-12 col-md-6 col-6 contact-intro">
+				<article class="intro-home-content">
+					<h1 class="logo-text">
+						Say Hey!
+						<span class="new-line-element">Write some words!</span>
+					</h1>
+					<div class="contact-info">
+						<ul>
+							<li class="contact-item"><i class="fa fa-phone" aria-hidden="true"></i>dziedziola.lukasz@gmail.com</li>
+							<li class="contact-item"><i class="fa fa-envelope" aria-hidden="true"></i>+48 512 204 819</li>
+						</ul>
+					</div>
+				</article>		
+			</section>
+			<section class="col-sx-12 col-md-6 col-6 contact-details">
+				<div id="map"></div>
+
+
+
+				<!-- <p>oawidjoawijdioawjdoiawjdawdjuhiiiiiiiiiiiiiiiiiiiiiiiiw
+				wefhiiiuuuuuuuuuuuihhhhhhhhhhhhhhhhhhhhhhhh</p> -->
+			</section>
+
+			<section class="col-md-12 col-12 contact-form">
+				<div class="contact-content">
+					<form method="post" action="contact-form.php" name="contact-form" id="contact-form">
+						<div class="clearfix">
+							<div class="col-md-6 col-6">
+								<input type="text" name="contact-name" id="contact-name" placeholder="Type your name">
+							</div>
+							<div class="col-md-6 col-6">
+								<input type="email" name="contact-email" id="contact-email" placeholder="Type your e-mail">
+							</div>
+						</div>
+						<div class="clearfix col-md-12 col-12">
+							<textarea name="contact-message" id="contact-message" placeholder="Type your message" cols rows></textarea>
+						</div>
+						<div class="send-form">
+							<input type="submit" value="Send Message">
+						</div>
+					</form>
+				</div>
+			</section>
+
+
+		</main>
+
+		<footer role="footer" class="clearfix">
+			<div class="social-list col-xs-12">
+				<ul>
+					<li class="social-item"><a class="social-link facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li class="social-item"><a class="social-link twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li class="social-item"><a class="social-link linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 copy-right-info">
+				<p>LukeWay &copy; 2016</p>
+			</div>
+			<button class="scroll-top-btn"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+		</footer>
+		<script type="text/javascript" src="libs/jquery-3.1.1.min.js"></script>
+		<script async defer
+      		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBC_f30oaJull6ImkZ8qXY40uSEZAMrWc&callback=initMap">
+    	</script>
+    	<script type="text/javascript" src="js/map.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

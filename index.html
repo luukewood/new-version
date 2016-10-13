@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>LukeWay Portfolio</title>
+		<meta charset="utf-8">
+		<meta name="description" content="LukeWay Porfolio Website">
+		<meta name="author" content="Showcase of all my Front-End works and projects">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body id="home">
+		<header role="header" class="home-header">
+			<div class="container clearfix">
+				<div class="logo">
+					<h2><a href="index.html">LukeWay</a></h2>
+				</div>
+				<nav id="main-nav" class="site-navigation" role="navigation">
+					<button class="toggle-nav">
+						<span></span>
+						<span></span>
+						<span></span>
+						Menu
+					</button>
+					<ul>
+						<li class="nav-item active"><a href="#">Works</a></li>
+						<li class="nav-item"><a href="contact.html">Contact</a></li>
+						<li class="nav-item"><a href="#">About</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main id="main-content" class="container clearfix">
+			<section class="col-sx-12 col-md-6 col-6 main-intro">
+				<article class="intro-home-content">
+					<h1 class="logo-text">
+						LukeWay
+						<span class="new-line-element">Portfolio</span>
+					</h1>
+					<p>Creative Portfolio of my Front-End works. Start exploring now! Enjoy!. </p>
+				</article>
+			</section>
+			<section class="col-sx-12 col-md-6 col-6 project pad-bot clearfix">
+				<div class="project">
+					<figure class="effect">
+						<img src="assets/new_mac.jpg" alt="" />
+						<figcaption>
+							<h3>
+								<span>SVG</span>
+								<span class="highlight">Interactive</span>
+								<span class="highlight">Map</span></h3>
+							</h3>
+							<p>Explore World with One Click</p>
+							<a href="#">See More</a>
+						</figcaption>
+					</figure>
+				</div>
+			</section>
+			<section class="col-sx-12 col-md-6 col-6 pad-bot pad-top clearfix">
+				<ul id="grid" class="grid effect-2">
+					<li class="project">
+						<figure class="effect">
+							<img src="assets/new_phone.jpg" alt="" />
+							<figcaption>
+								<h3>
+									<span>Simple</span>
+									<span class="highlight">JavaScript</span>
+									<span class="highlight">Calculator</span>
+								</h3>
+								<p>Calculator with animations</p>
+								<a href="#">See More</a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="project">
+						<figure class="effect">
+							<img src="assets/black.jpg" alt="" />
+							<figcaption>
+								<h3>
+									<span>JavaScript</span>
+									<span class="highlight">Canban</span>
+									<span class="highlight">Table</span>
+								</h3>
+								<p>Organize your time in place</p>
+								<a href="#">See More</a>
+							</figcaption>
+						</figure>
+					</li>
+				</ul>
+			</section>
+			<section class="col-sx-12 col-md-6 col-6 pad-top clearfix">
+				<ul id="grid" class="grid effect-2">
+					<li class="project half-height">
+						<figure class="effect">
+							<img src="assets/imac-blog.jpg" alt="" />
+							<figcaption>
+								<h3>
+									JavaScript
+									Calculator
+								</h3>
+								<p>Calculator with animations</p>
+								<a href="#">See More</a>
+							</figcaption>
+						</figure>
+					</li>
+				</ul>
+			</section>
+
+		</main>
+		<!-- <button>More to Come!</button> -->
+
+		<footer role="footer" class="clearfix">
+			<div class="social-list col-xs-12">
+				<ul>
+					<li class="social-item"><a class="social-link facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li class="social-item"><a class="social-link twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li class="social-item"><a class="social-link linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 copy-right-info">
+				<p>LukeWay &copy; 2016</p>
+			</div>
+			<button class="scroll-top-btn"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+		</footer>
+
+
+
+		
+		<!-- <script type="text/javascript" src="libs/masonary.pkgd.min.js"></script>
+		<script type="text/javascript" src="libs/AnimOnScroll.js"></script>
+		<script type="text/javascript" src="libs/classie.js"></script>
+		<script type="text/javascript" src="libs/imagesloaded.js"></script> -->
+		<script type="text/javascript" src="libs/modernizr.custom.js"></script>
+		<script type="text/javascript" src="libs/jquery-3.1.1.min.js"></script>
+		<script src="libs/masonry.pkgd.min.js"></script>
+		<script src="libs/imagesloaded.js"></script>
+		<script src="libs/classie.js"></script>
+		<script src="libs/AnimOnScroll.js"></script>
+
+		<script type="text/javascript" src="js/main.js"></script>
+		<script>
+			new AnimOnScroll( document.getElementById( 'grid' ), {
+				minDuration : 0.4,
+				maxDuration : 0.7,
+				viewportFactor : 0.2
+			});
+		</script>
+	</body>
+</html>
